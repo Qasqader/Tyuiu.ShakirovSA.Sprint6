@@ -12,7 +12,7 @@ namespace Tyuiu.ShakirovSA.Sprint6.Task1.V21.Lib
             int count = 0;
             for (int i = startValue; i <= stopValue; i++)
             {
-                y = Math.Round(Math.Cos(i) + ((Math.Sin(i)) / (2 + 2 * i)) - 4 * i, 2);
+                y = Math.Round(Math.Cos(i) + (Math.Sin(i) / (2 - 2 * i)) - 4 * i, 2);
                 if (i == 1)
                 {
                     y = 0;
