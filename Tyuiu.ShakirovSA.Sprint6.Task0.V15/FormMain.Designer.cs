@@ -162,7 +162,6 @@
             Name = "FormMain";
             StartPosition = FormStartPosition.CenterScreen;
             Text = "Спринт 6 | Таск 0 | Вариант 15 | Шакиров А.С.";
-            Load += this.FormMain_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBoxFormula).EndInit();
             ResumeLayout(false);
             PerformLayout();
