@@ -95,7 +95,7 @@
             // 
             // buttonHelp
             // 
-            buttonHelp.Location = new Point(724, 31);
+            buttonHelp.Location = new Point(727, 31);
             buttonHelp.Name = "buttonHelp";
             buttonHelp.Size = new Size(57, 56);
             buttonHelp.TabIndex = 2;
@@ -182,6 +182,7 @@
             textBoxHeading.Location = new Point(3, 19);
             textBoxHeading.Multiline = true;
             textBoxHeading.Name = "textBoxHeading";
+            textBoxHeading.ReadOnly = true;
             textBoxHeading.Size = new Size(373, 53);
             textBoxHeading.TabIndex = 0;
             textBoxHeading.Text = "Протабулировать функциюна заданном диапозоне -5 5\r\nРезультат вывести в textBox, построить график и сохранить в файл\r\nOutPutFileTask.txt по нажатию кнопки\r\n";
@@ -260,6 +261,7 @@
             textBoxResult.Location = new Point(3, 19);
             textBoxResult.Multiline = true;
             textBoxResult.Name = "textBoxResult";
+            textBoxResult.ReadOnly = true;
             textBoxResult.Size = new Size(144, 288);
             textBoxResult.TabIndex = 0;
             // 
