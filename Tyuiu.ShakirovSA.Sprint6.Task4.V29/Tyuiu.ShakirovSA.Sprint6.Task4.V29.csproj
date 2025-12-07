@@ -6,19 +6,14 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
-    <ApplicationManifest>app.manifest</ApplicationManifest>
   </PropertyGroup>
 
   <ItemGroup>
-    <AdditionalFiles Remove="app.manifest" />
+    <PackageReference Include="WinForms.DataVisualization" Version="1.10.0" />
   </ItemGroup>
 
   <ItemGroup>
-    <None Remove="app.manifest" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <ProjectReference Include="..\Tyuiu.ShakirovSA.Sprint6.Task3.V4.Lib\Tyuiu.ShakirovSA.Sprint6.Task3.V4.Lib.csproj" />
+    <ProjectReference Include="..\Tyuiu.ShakirovSA.Sprint6.Task4.V29.Lib\Tyuiu.ShakirovSA.Sprint6.Task4.V29.Lib.csproj" />
   </ItemGroup>
 
 </Project>
