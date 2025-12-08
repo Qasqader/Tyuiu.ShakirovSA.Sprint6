@@ -21,7 +21,7 @@ namespace Tyuiu.ShakirovSA.Sprint6.Task6.V23.Lib
                     }
                 }
             }
-            return res;
+            return res.TrimStart();
         }
     }
 }
