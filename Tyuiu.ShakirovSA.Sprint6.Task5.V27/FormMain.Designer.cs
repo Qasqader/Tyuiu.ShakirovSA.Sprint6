@@ -66,6 +66,7 @@
             // 
             // buttonHelp
             // 
+            buttonHelp.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             buttonHelp.Location = new Point(665, 33);
             buttonHelp.Name = "buttonHelp";
             buttonHelp.Size = new Size(97, 62);
@@ -76,6 +77,7 @@
             // 
             // buttonOpenFile
             // 
+            buttonOpenFile.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             buttonOpenFile.Location = new Point(527, 33);
             buttonOpenFile.Name = "buttonOpenFile";
             buttonOpenFile.Size = new Size(97, 62);
@@ -86,6 +88,7 @@
             // 
             // buttonResult
             // 
+            buttonResult.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             buttonResult.Location = new Point(399, 33);
             buttonResult.Name = "buttonResult";
             buttonResult.Size = new Size(96, 62);
